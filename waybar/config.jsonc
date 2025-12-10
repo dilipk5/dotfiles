@@ -150,7 +150,7 @@
   "clock": {
     "interval": 1,
     "timezone": "Asia/Kolkata",
-    "format": "   {:%H:%M:%S} ",
+    "format": " {:%a, %d %b %H:%M:%S} ",
     "tooltip": true,
     "tooltip-format": "{:L%Y 年 %m 月 %d 日, %A}"
   },
@@ -210,7 +210,7 @@
   "bluetooth": {
     "format": "  {status} ",
     "format-connected": "  {device_alias} ",
-    "format-connected-battery": "  {device_alias}{device_battery_percentage}% ",
+    "format-connected-battery": "  {device_alias} {device_battery_percentage}% ",
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
