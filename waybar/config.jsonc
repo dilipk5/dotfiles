@@ -5,6 +5,7 @@
   "spacing": 0,
   "modules-left": [
     "custom/clipboard",
+    "network",
     "custom/cpufreq",
     "custom/loadavg",
     "tray",
@@ -12,7 +13,6 @@
   ],
   "modules-center": ["clock"],
   "modules-right": [
-    "network",
     "battery",
     "bluetooth",
     "pulseaudio",
@@ -91,12 +91,12 @@
     "tooltip-format": "关机"
   },
   "network": {
-    "format-wifi": " 󰤨  {essid} ",
-    "format-ethernet": "  Wired ",
+    "format-ethernet": " {bandwidthUpBytes} | {bandwidthDownBytes} ",
+    "format-wifi": "  Wired ",
     "tooltip-format": "<span color='#FF1493'> 󰅧 </span>{bandwidthUpBytes}  <span color='#00BFFF'> 󰅢 </span>{bandwidthDownBytes}",
     "format-linked": " 󱘖 {ifname} (No IP) ",
     "format-disconnected": "  Disconnected ",
-    "format-alt": " 󰤨 {signalStrength}% ",
+    "format-alt": " 󰤨  {signalStrength} % ",
     "interval": 1
   },
   "battery": {
